@@ -479,7 +479,7 @@ extension JTAppleCalendarView {
     /// - Parameter completionHandler: A completion handler that will be executed at the end of the scroll animation
     public func scrollToDate(_ date: Date,
                              triggerScrollToDateDelegate: Bool = true,
-                             animateScroll: Bool = true,
+                             animateScroll: Bool = false,
                              preferredScrollPosition: UICollectionViewScrollPosition? = nil,
                              completionHandler: (() -> Void)? = nil) {
         if !calendarIsAlreadyLoaded {
